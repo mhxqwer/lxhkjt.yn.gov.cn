@@ -1,0 +1,11 @@
+var title = $('#title').val();
+var news_id = $('#nsid').val();
+var column = $('#column').val();
+var editor = $('#editor').val();
+var pub_time = $('#pub_time').val();
+var url = document.location.href;
+url = url.replace('#tp', '');
+var browser = navigator.userAgent;
+var static = $('#static').val();
+var desurl = 'https://webapp-ali.ynurl.cn/index.php?nova_p=S053eWFwcE1RSmE0V3oyWWZNSlZEUlJ1ZkdLUjJaWXdIc0ZkZjdEZVFSSWZ6a051WEhBWWVYeDZwRmRWbXdZZQ@@&title='+encodeURIComponent(title)+'&news_id='+news_id+'&source=&pub_time='+pub_time+'&column='+encodeURIComponent(column)+'&editor='+editor+'&url='+url+'&browser='+browser+'&static='+static;
+$.getJSON(desurl);

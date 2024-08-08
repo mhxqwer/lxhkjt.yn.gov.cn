@@ -1,0 +1,161 @@
+/* reset */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+li {
+    text-align: left;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+body {
+    background: #f2f5fa;
+    font: 16px/1.0 Microsoft YaHei,SimSun,SimHei,Arial,Tahoma,Helvetica,san-serif;
+}
+
+p {
+    text-indent: 0;
+    text-align: left;
+}
+
+img, input {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+li, ol, ul {
+    list-style: none
+}
+
+button, input[type=button]{
+    cursor: pointer
+}
+
+input {
+    outline: 0;
+    background: 0 0
+}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ''
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.space0 {
+    height: 0;
+    font: 0px/0px SimSun;
+    clear: both;
+}
+.space {
+    height: 5px;
+    font: 0px/0px SimSun;
+    clear: both;
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    height: 10px;
+    margin-bottom: 10px;
+    font: 0px/0px SimSun;
+    border-bottom: 1px solid #464747;
+    clear: both;
+}
+.hr {
+    width: 100%;
+    border-bottom: 2px solid #1283e6;
+    margin-top: -1px;
+}
+.ohd {
+    overflow: hidden;
+}
+.ht {
+    font-family: '\9ed1\4f53';
+}
+.yh {
+    font-family: '\5fae\8f6f\96c5\9ed1';
+}
+.st {
+    font-family: SimSun;
+}
+.dn{
+    display: none;
+}
+.fl {
+    float: left;
+}
+.fr{
+    float: right;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.comW1920 {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.comW1280 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.comW1200 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.comW1100 {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
